@@ -7,7 +7,7 @@ virtual_env: ## Alias for virtual environment
 
 setup: virtual_env ## Project setup
 	. ve/bin/activate; pip install wheel setuptools
-	. ve/bin/activate; pip install --exists-action --no-cache w -Ur requirements/dev.txt
+	. ve/bin/activate; pip install --no-cache --exists-action w -Ur requirements/dev.txt
 	. ve/bin/activate; pre-commit install
 
 run: virtual_env ## Run project
