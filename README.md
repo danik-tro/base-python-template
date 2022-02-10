@@ -11,28 +11,43 @@ Base python template for projects
 
 ## Setup
 Init virtualenv, install requirements, install pre-commit hooks
-> make setup
+```bash
+$ make setup
+```
 
 
 ## Useful commands
 
 Run app
-> make run
+```bash
+$ make run
+```
 
-Run Tests
-> make test
+```bash
+$ make test
+```
 
 Run tests with coverage
-> make coverage
+```bash
+$ make coverage
+```
 
 Clean cache
-> make clean
+```bash
+$ make clean
+```
 
 Mypy
-> make mypy
+```bash
+$ make mypy
+```
 
 Flake8
-> make lint
+```bash
+$ make lint
+```
 
 Isort && Black
-> make black
+```bash
+$ make black
+```
